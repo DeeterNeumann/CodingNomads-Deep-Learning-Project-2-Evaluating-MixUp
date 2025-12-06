@@ -1,0 +1,49 @@
+# =======================
+# Python cache / compiled
+# =======================
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# =======================
+# MacOS junk
+# =======================
+.DS_Store
+*/.DS_Store
+
+# =======================
+# Model artifacts
+# =======================
+*.ckpt
+*.pt
+*.pth
+
+# =======================
+# Data (CIFAR10/100, etc.)
+# =======================
+data/
+
+# =======================
+# PyTorch Lightning logs
+# =======================
+lightning_logs*/
+lightning_logs/
+
+# =======================
+# Virtual environments
+# =======================
+.venv/
+venv/
+ENV/
+
+# =======================
+# IDE / editor stuff
+# =======================
+.vscode/
+.idea/
+
+# =======================
+# Misc logs/temp
+# =======================
+*.log
+*.tmp
