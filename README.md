@@ -11,6 +11,8 @@ Four models were trained:
 
 Each model uses a **ResNet-18** backbone with pretrained ImageNet weights and was trained in **PyTorch Lightning**.
 
+The best checkpoints from the models can be accessed here: https://drive.google.com/drive/folders/1P_ryliaZ3ctyoQ0NM8bpKg8HbHI3KlK7?usp=share_link
+
 A **Streamlit user interface** allows any user to upload an image and instantly compare predictions from all four models in a **2×2 visual grid**.
 
 ---
